@@ -8,3 +8,16 @@ git commit -m "Descripción de cambios"
 git log (Historial de commits) --oneline (abreviado) --graph(gráfico)
 git remote add origin <url del repo> (origin es el alias)
 git push -u origin master
+
+RAMAS
+git branch <nombre_rama> (crear la rama, pero sin posicionarse)
+git checkout <nombre_rama> (posicionarse en la rama)
+** git checkout -b <nombre rama>  (hace los 2 pasos anteriores)
+git branch (Muestra las ramas e indica en donde estoy posicionado)
+..trabajamos en la rama...
+git add .
+git commit -m "..."
+..unir la rama con el master(principal)
+git checkout master (posiciono en la rama master)
+git merge <nombre_rama> 
+git branch -d <nombre_rama> (eliminar una rama)
