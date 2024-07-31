@@ -6,3 +6,5 @@ git commit (i -> Insertar comentario, ESC, :wq grabar y salir)
 OTRA OPCIÓN DE COMMIT
 git commit -m "Descripción de cambios"
 git log (Historial de commits) --oneline (abreviado) --graph(gráfico)
+git remote add origin <url del repo> (origin es el alias)
+git push -u origin master
